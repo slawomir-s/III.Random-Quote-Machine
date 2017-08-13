@@ -2,7 +2,7 @@
 
 This is a simple application for downloading quotes which are displayed randomly on the screen. It's possible to post a downloaded quote on Twitter.
 
-Functions: 
+Functions:
     - button "Random quote" for generating quotes
     - button "Tweet" receive quote and redirect to Twitter
 
