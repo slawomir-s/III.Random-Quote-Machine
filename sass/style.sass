@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script')
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond')
+
+body 
+    font-family: 'EB Garamond', serif
+    text-align: center
+    background: url(http://www.oldskooldepartment.com/attachments/stuttgart-jpg.204/) no-repeat center center fixed
+    background-size: cover
+
+* 
+    box-sizing: border-box
+
+section 
+    max-width: 1200px
+    margin: 0 auto 
+    h1 
+        margin-top: 90px
+        font-size: 70px
+        font-family: 'Clicker Script', cursive
+        font-weight: bold
+        text-shadow: 3px 3px 3px grey
+    .box
+        margin-top: 80px
+        background: rgba(0, 0, 0, 0.4)
+        margin-left: 150px
+        margin-right: 150px
+        border-radius: 10px
+        padding: 15px
+        box-shadow: 3px 3px 3px black
+        text-shadow: 5px 5px 5px black
+        color: #fff
+        h2 
+            font-size: 2.0em
+            font-style: oblique
+            margin: 30px
+            line-height: 1.5
+        h3 
+            font-size: 1.6em
+            margin-bottom: 60px
+
+button 
+    margin-top: 50px
+    display: inline-block
+    color: #fff
+    background-color: #000
+    text-transform: uppercase
+    letter-spacing: 2px
+    font-size: 12px
+    padding: 10px 30px
+    border-radius: 5px
+    -moz-border-radius: 5px
+    -webkit-border-radius: 5px
+    border: 1px solid rgba(0,0,0,0.3)
+    border-bottom-width: 3px
+    font-weight: bold
+    font-family: 'EB Garamond', serif
+    &:hover 
+        background-color: #e3e3e3
+        border-color: rgba(0,0,0,0.5)
+        color: #000
+    &:active 
+        background-color: #CCC
+        border-color: rgba(0,0,0,0.9)
+    
+a.s3d  
+    border-radius: 3px
+    box-shadow: 0 4px 5px rgba(0,0,0,.3)
+    display: inline-block
+    font: 700 13px/36px 'Arial', Helvetica, Clean, sans-serif
+    height: 40px
+    margin: 0 0 10px
+    padding: 0 10px 11px
+    position: relative
+    text-decoration: none
+    text-shadow: 0 1px 1px rgba(255,255,255,.35)
+    width: 125px
+    &:hover 
+        width: 160px
+    &:active 
+        transform: translateX(20px)
+
+a.tweet 
+    background: #65acc8
+    background: -webkit-linear-gradient(#65acc8, #4586ae)
+    background: -moz-linear-gradient(#65acc8, #4586ae)
+    background: -o-linear-gradient(#65acc8, #4586ae)
+    background: linear-gradient(#65acc8, #4586ae)
+    border-top: 1px solid #a1cdde
+    color: rgba(25, 45, 55, 0.9)
+    &:active 
+        background: #4586ae;
+        background: -webkit-linear-gradient(#4586ae, #65acc8)
+        background: -moz-linear-gradient(#4586ae, #65acc8)
+        background: -o-linear-gradient(#4586ae, #65acc8)
+        background: linear-gradient(#4586ae, #65acc8)
+
+@media (max-width: 768px)
+    
+    section
+        h1
+            font-size: 45px
+        .box
+            margin-left: 50px
+            margin-right: 50px    
+            h2
+                font-size: 30px
+            h3
+                font-size: 28px     
+   
+@media (max-width: 480px)
+    
+    section 
+        h1
+            font-size: 40px
+
+        .box
+            margin-left: 50px
+            margin-right: 50px
+            h2
+                font-size: 25px
+            h3
+                font-size: 20px
+
+        .trigger 
+            display: block
+            width: 50%
+            margin: 15px auto   
